@@ -19,11 +19,10 @@ body {
     margin: 0;
     width: 100vw;
     font-size: 16px;
-    font-family: var(--body-font);
     font-weight: 400;
     height: 100vh;
     overflow: hidden;
-    background-image: url("../images/photo3.png");
+    background-image: url("./images/photo3.png");
     font-family: var(--body-font);
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +30,7 @@ body {
 }
 
 .overlay {
-    background-color: rgba(69, 6, 119, .8);
+    background-color: rgba(69, 6, 119, .5);
     position: fixed;
     width: 100%;
     min-height: 100%;
@@ -43,6 +42,8 @@ body {
 }
 
 .root-div {
+    width: 100vw;
+    height: 100vh;
     padding-top: 2em;
     position: relative;
 }
@@ -140,16 +141,14 @@ a {
     right: 0;
     width: 100vw;
     height: 100vw;
-    object-fit: cover;
-    object-position: right bottom;
+    z-index: -1;
 }
 
 .carousel img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    width: 100vw;
+    object-fit: cover;
+    object-position: bottom bottom;
+
 }
 
 .carousel-images,

@@ -1,4 +1,4 @@
-// window.addEventListener("load", startCarousel);
+window.addEventListener("load", startCarousel);
 // Carousel
 let slidePosition = 0;
 let carouselImages = document.getElementsByClassName("carousel-images");
