@@ -4,10 +4,6 @@
 
 :root {
     --main-color: #8E00FE;
-    --bg: hsl(256, 26%, 20%);
-    --secondary-bg: hsl(216, 30%, 68%);
-    --font-color: hsl(270, 9%, 17%);
-    --line: hsl(273, 4%, 51%);
     --footer-bg: hsl(0, 0%, 98%);
     --hd-font: 'Libre Baskerville', serif;
     --body-font: 'Work Sans', sans-serif;
@@ -30,7 +26,7 @@ body {
 }
 
 .overlay {
-    background-color: rgba(69, 6, 119, .5);
+    background-color: rgba(69, 6, 119, .3);
     position: fixed;
     width: 100%;
     min-height: 100%;

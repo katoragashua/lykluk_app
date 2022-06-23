@@ -29,7 +29,7 @@ body {
 }
 
 .overlay {
-    background-color: rgba(69, 6, 119, .4);
+    background-color: rgba(69, 6, 119, .3);
 ;
     position: fixed;
     width: 100%;
