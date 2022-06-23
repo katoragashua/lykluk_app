@@ -44,7 +44,7 @@ fetch(
   });
 
 fetch(
-  "https://api.unsplash.com/search/photos/?&query=friends&orientation=portrait&client_id=hjRE5t2RVXBqp561CfadH4aoW5oMSuEhDXsDxFJJ_nU"
+  "https://api.unsplash.com/search/photos/?&query=friends&orientation=portrait&per_page=5&client_id=hjRE5t2RVXBqp561CfadH4aoW5oMSuEhDXsDxFJJ_nU"
 )
   .then((response) => response.json())
   .then((data) => {

@@ -17,7 +17,6 @@ body,
     font-size: 16px;
     font-family: var(--body-font);
     overflow-x: hidden;
-    background-color: rgba(144, 0, 254, 0.05);
     background-color: white;
 }
 
@@ -317,7 +316,7 @@ header {
     padding-top: 1em;
     padding-bottom: 1em;
     border-radius: 10px;
-    background-color: rgba(142, 0, 254, 0.1);
+    background-color: rgba(144, 0, 254, 0.2);
 }
 
 .suggested, 
