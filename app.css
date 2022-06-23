@@ -73,7 +73,7 @@ header {
 .search {
     max-width: 400px;
     width: 400px;
-    border: solid 1px var(--main-color);
+    border: solid 2px var(--main-color);
     border-radius: 7px;
     padding: 0.5em 1.5em;
     background: url("./images/search-colored.svg");
@@ -240,7 +240,7 @@ header {
     padding: 1em;
     border-radius: 10px;
     background-color: rgba(144, 0, 254, 0.1);
-    box-shadow: 5px 5px 50px rgba(144, 0, 254, 0.5);
+    box-shadow: 5px 5px 50px rgba(144, 0, 254, 0.4);
     border: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(20px);
 }
