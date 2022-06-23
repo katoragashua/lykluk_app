@@ -41,8 +41,8 @@ header {
 }
 
 .svg {
-    position: fixed;
-    z-index: -0;
+    position: absolute;
+    z-index: 0;
 }
 
 .header-container, .nav, .menu {

@@ -19,96 +19,159 @@
     <link rel="stylesheet" href="app.css" type="text/css" />
     <script src="index.js" defer></script>
     <title>App</title>
-    
   </head>
   <body>
     <div class="root-div">
-      
-        <header>
-            <svg xmlns="http://www.w3.org/2000/svg" class="svg" viewBox="0 0 1440 320"><path fill="#8E00FE" fill-opacity="0.2" d="M0,32L120,32C240,32,480,32,720,42.7C960,53,1200,75,1320,85.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+      <header>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="svg"
+          viewBox="0 0 1439 319"
+        >
+          <path
+            fill="#8E00FE"
+            fill-opacity="0.2"
+            d="M0,32L120,32C240,32,480,32,720,42.7C960,53,1200,75,1320,85.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+          ></path>
+        </svg>
 
-          <div class="container header-container">
-            <div class="logo-div">
-            <img src="images/LykLuk-logo.png" alt="logo" class="logo" width="70px"/>
+        <div class="container header-container">
+          <div class="logo-div">
+            <a href="index.html">
+              <img
+                src="images/LykLuk-logo.png"
+                alt="logo"
+                class="logo"
+                width="70px"
+              />
+            </a>
           </div>
 
-          <div class="hamburger" id="hamburger"><a href="#"><img src="images/menu.svg" alt=""/></a></div>
+          <div class="hamburger" id="hamburger">
+            <a href="#"><img src="images/menu.svg" alt="" /></a>
+          </div>
           <nav class="nav" id="nav">
-            <input type="search" name="" class="search" id="search" placeholder="Search..." />
+            <input
+              type="search"
+              name=""
+              class="search"
+              id="search"
+              placeholder="Search..."
+            />
             <div class="menu-items" id="menu-items">
-                <a href="#" class="close" id="close"><img src="images/close.svg" alt="" class="nav-icons"></a>
-                <ul class="menu">
-                    <li><a href="#"><img src="images/home.svg" alt="" class="nav-icons"></a></li>
-                    <li><a href="#"><img src="images/explore.svg" alt="" class="nav-icons"></a></li>
-                    <li><a href="#"><img src="images/add_circle.svg" alt="" class="nav-icons"></a></li>
-                    <li><a href="#"><img src="images/chat.svg" alt="" class="nav-icons"></a></li>
-                    <li><a href="#"><img src="images/notification.svg" alt="" class="nav-icons"></a></li>
-                    <li><a href="#"><img src="images/search.svg" alt="" class="nav-icons search-icon"></a></li>
-                    <li><a href="#"><img src="images/profile-image.svg" alt="" class="nav-icons"></a></li>
-                </ul>
+              <a href="#" class="close" id="close"
+                ><img src="images/close.svg" alt="" class="nav-icons"
+              /></a>
+              <ul class="menu">
+                <li>
+                  <a href="#"
+                    ><img src="images/home.svg" alt="" class="nav-icons"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/explore.svg" alt="" class="nav-icons"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/add_circle.svg" alt="" class="nav-icons"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/chat.svg" alt="" class="nav-icons"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/notification.svg"
+                      alt=""
+                      class="nav-icons"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/search.svg"
+                      alt=""
+                      class="nav-icons search-icon"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/profile-image.svg"
+                      alt=""
+                      class="nav-icons"
+                  /></a>
+                </li>
+              </ul>
             </div>
           </nav>
-          </div>
+        </div>
       </header>
-     
-  
-    <main>
-      <div class="container main-container">
-        <div class="trending-container">
-          <button class="trending-btn trending-btn-left" id="btn-left" ><img src="images/btn-icon-left.svg" alt="" class=""></button>
-          <button class="trending-btn trending-btn-right" id="btn-right" ><img src="images/btn-icon-right.svg" alt="" class=""></button>
-          <div class="trending" id="trending">
-          
-        </div>
-        </div>
-        
-        <div class="feed" id="feed">
-          
-        </div>
 
-        <div class="suggestions">
-
-          <div class="suggested">
-            <img src="images/barry.png" alt="" class="suggested-img">
-            <div class="suggested-div">
-              <span>Barry Allen</span>
-              <a href=""><span>Follow</span></a>
-            </div>
-          </div>
-          <div class="suggested">
-            <img src="images/brooklyn.png" alt="" class="suggested-img">
-            <div class="suggested-div">
-              <span>Brooklyn Simmons</span>
-              <a href=""><span>Follow</span></a>
-            </div>
-          </div>
-          <div class="suggested">
-            <img src="images/angella.png" alt="" class="suggested-img" />
-            <div class="suggested-div">
-              <span>Angella Markle</span>
-              <a href=""><span>Follow</span></a>
-            </div>
-          </div>
-          <div class="suggested">
-            <img src="images/murphy.png" alt="" class="suggested-img" />
-            <div class="suggested-div">
-              <span>Murphy Adeyefa</span>
-              <a href=""><span>Follow</span></a>
-            </div>
-          </div>
-          <div class="suggested-ad">
-            <img src="images/vsop.png" alt="" class="suggested-ad-img" />
-            
-            <div class="suggested-ad-div">
-              <img src="images/vsop.png" alt="" class="suggested-ad-profile-img" />
-              <span>VSOP</span>
-              <a href="#"><span>Sponsored</span></a>
-            </div>
+      <main>
+        <div class="container main-container">
+          <div class="trending-container">
+            <button class="trending-btn trending-btn-left" id="btn-left">
+              <img src="images/btn-icon-left.svg" alt="" class="" />
+            </button>
+            <button class="trending-btn trending-btn-right" id="btn-right">
+              <img src="images/btn-icon-right.svg" alt="" class="" />
+            </button>
+            <div class="trending" id="trending"></div>
           </div>
 
+          <div class="feed" id="feed"></div>
+
+          <div class="suggestions">
+            <div class="suggested">
+              <img src="images/barry.png" alt="" class="suggested-img" />
+              <div class="suggested-div">
+                <span>Barry Allen</span>
+                <a href=""><span>Follow</span></a>
+              </div>
+            </div>
+            <div class="suggested">
+              <img src="images/brooklyn.png" alt="" class="suggested-img" />
+              <div class="suggested-div">
+                <span>Brooklyn Simmons</span>
+                <a href=""><span>Follow</span></a>
+              </div>
+            </div>
+            <div class="suggested">
+              <img src="images/angella.png" alt="" class="suggested-img" />
+              <div class="suggested-div">
+                <span>Angella Markle</span>
+                <a href=""><span>Follow</span></a>
+              </div>
+            </div>
+            <div class="suggested">
+              <img src="images/murphy.png" alt="" class="suggested-img" />
+              <div class="suggested-div">
+                <span>Murphy Adeyefa</span>
+                <a href=""><span>Follow</span></a>
+              </div>
+            </div>
+            <div class="suggested-ad">
+              <img src="images/vsop.png" alt="" class="suggested-ad-img" />
+
+              <div class="suggested-ad-div">
+                <img
+                  src="images/vsop.png"
+                  alt=""
+                  class="suggested-ad-profile-img"
+                />
+                <span>VSOP</span>
+                <a href="#"><span>Sponsored</span></a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
     </div>
   </body>
 </html>
