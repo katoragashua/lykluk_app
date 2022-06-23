@@ -115,7 +115,7 @@ header {
     gap: 2em;
     border-radius: 10px;
     position: relative;
-    background-color: rgba(142, 0, 254, 0.2);
+    background-color: rgba(142, 0, 254, 0.1);
 }
 
 .trending-container {
@@ -317,7 +317,7 @@ header {
     padding-top: 1em;
     padding-bottom: 1em;
     border-radius: 10px;
-    background-color: rgba(142, 0, 254, 0.2);
+    background-color: rgba(142, 0, 254, 0.1);
 }
 
 .suggested, 
