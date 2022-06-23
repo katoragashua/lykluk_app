@@ -3,6 +3,9 @@ const feedsDiv = document.getElementById("feed");
 const suggestions = document.getElementById("suggestions");
 const btnLeft = document.getElementById("btn-left");
 const btnRight = document.getElementById("btn-right");
+const hamburger = document.getElementById("hamburger");
+const nav = document.getElementById("nav");
+const close = document.getElementById("close");
 
 const hashtagsArray = [
   "fashion",
@@ -91,3 +94,14 @@ function favorite(index) {
   target.classList.toggle("like");
   console.log(index);
 }
+
+
+hamburger.addEventListener("click", () => {
+    nav.classList.add("slide-in");
+    nav.classList.remove("slide-out");
+});
+
+close.addEventListener("click", () => {
+    nav.classList.add("slide-out");
+    nav.classList.remove("slide-in");
+})
