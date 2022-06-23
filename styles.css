@@ -65,6 +65,7 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 0;
     font-family: var(--hd-font);
+    text-shadow: 1px 1px 1px black;
 }
 
 a {
@@ -74,6 +75,7 @@ a {
     padding: 0.5em 3em;
     color: white;
     border-radius: 2rem;
+    font-weight: bold;
 }
 
 .main {
@@ -85,6 +87,9 @@ a {
     color: var(--footer-bg);
 }
 
+.main p {
+    text-shadow: 1px 1px 1px black;
+}
 
 
 @media screen and (min-width: 768px) {
