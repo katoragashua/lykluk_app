@@ -23,8 +23,8 @@ body,
     font-family: var(--body-font);
     overflow-x: hidden;
     background-color: rgba(144, 0, 254, 0.05);
-    background-color: whitesmoke;
-    /* background-color: rgba(245, 222, 179, 0.1); */
+    background-color: white;
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 1), rgba(144, 0, 254, 0.2)); */
 }
 
 .root-div {
@@ -67,7 +67,8 @@ a {
 }
 
 .search {
-    width: 300px;
+    max-width: 400px;
+    width: 400px;
     border: solid 1px var(--main-color);
     border-radius: 7px;
     padding: 0.5em 1.5em;
@@ -99,7 +100,7 @@ a {
 
 .main-container {
     margin-top: 1em;
-    border: 1px solid var(--main-color);
+    border: 1px dotted var(--main-color);
     padding: 2em 4em;
     display: grid;   
     grid-template: auto auto/ repeat(6, 1fr);
@@ -180,7 +181,8 @@ a {
 
 .trending-smalls {
     display: inline-block;
-    color: white;
+    color: black;
+    text-shadow: 1px 1px 1px white;
 }
 
 .trending-btn {
@@ -222,7 +224,7 @@ a {
 
 .feed-divs {
     max-width: 100%;
-    border: 1px solid var(--main-color);
+    border: 3px solid var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -234,7 +236,7 @@ a {
 .feed-main {
     max-width: 100%;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 1);
     position: relative;
     padding: 1em 0;
     border-radius: 10px;
@@ -309,7 +311,7 @@ a {
     padding-top: 1em;
     padding-bottom: 1em;
     border-radius: 10px;
-    border: solid 1px var(--main-color);
+    border: solid 3px var(--main-color);
 }
 
 .suggested, 
@@ -317,7 +319,7 @@ a {
     max-width: 85%;
     width: 85%;
     margin: 0 auto;
-    border: solid 1px var(--main-color);
+    border: solid 3px var(--main-color);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
