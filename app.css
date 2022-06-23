@@ -47,7 +47,6 @@ a {
     align-items: baseline;
     padding-bottom: 0;
     padding-top: 1em;
-    border-bottom: solid 3px var(--main-color);
 }
 
 .nav {
@@ -97,7 +96,7 @@ a {
 
 .main-container {
     margin-top: 1em;
-    border: 1px dotted var(--main-color);
+    border: 1px solid var(--main-color);
     padding: 2em 4em;
     display: grid;   
     grid-template: auto auto/ repeat(6, 1fr);
@@ -450,6 +449,10 @@ a {
 
     html, body {
         font-size: 10px;
+    }
+
+    .header-container {
+        border: none;
     }
 
     .container {
