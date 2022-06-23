@@ -36,11 +36,19 @@ a {
 
 
 /* Header */
+header {
+    position: relative;
+}
+
+.svg {
+    position: fixed;
+    z-index: -0;
+}
+
 .header-container, .nav, .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .header-container {
@@ -96,7 +104,7 @@ a {
 
 .main-container {
     margin-top: 1em;
-    border: 1px solid var(--main-color);
+    /* border: 1px solid var(--main-color); */
     padding: 2em 4em;
     display: grid;   
     grid-template: auto auto/ repeat(6, 1fr);
@@ -107,6 +115,7 @@ a {
     gap: 2em;
     border-radius: 10px;
     position: relative;
+    background-color: rgba(142, 0, 254, 0.2);
 }
 
 .trending-container {
@@ -177,8 +186,8 @@ a {
 
 .trending-smalls {
     display: inline-block;
-    color: black;
-    text-shadow: 1px 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
 .trending-btn {
@@ -220,7 +229,7 @@ a {
 
 .feed-divs {
     max-width: 100%;
-    border: 3px solid var(--main-color);
+    border: 2px solid var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -276,6 +285,7 @@ a {
     right: 5%;
     bottom: 0;
     margin-bottom: 4em;
+    max-height: 80%;
     /* align-items: center; */
 }
 
@@ -306,9 +316,8 @@ a {
     gap: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
-    border-radius: 25px;
-    border: solid 3px var(--main-color);
-    background-color: var(--main-color);
+    border-radius: 10px;
+    background-color: rgba(142, 0, 254, 0.2);
 }
 
 .suggested, 
@@ -321,7 +330,7 @@ a {
     justify-content: space-between;
     align-items: baseline;
     padding: 1em;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color: whitesmoke;
 }
 
@@ -385,7 +394,7 @@ a {
     }
 
     .logo {
-        width: 50px;
+        width:60px;
     }
     
     .menu {
@@ -398,7 +407,7 @@ a {
     }    
 
     .nav-icons {
-        width: 2em;
+        width: 2.5em;
         margin-bottom: -6px;
     }
 
@@ -466,6 +475,7 @@ a {
     .main-container {
         padding: .5em;
         border: none;
+        background: transparent;
     }
 
     .header-container {
@@ -564,8 +574,8 @@ a {
 
 .trending-smalls {
     display: inline-block;
-    color: black;
-    text-shadow: 1px 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
 .trending-btn img {
@@ -575,11 +585,11 @@ a {
 }
 
 .trending-btn-right {
-    right: -2em;
+    right: -2.5em;
 }
 
 .trending-btn-left {
-    left: -2em;
+    left: -2.5em;
 }
 
 /* Feed */

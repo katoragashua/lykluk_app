@@ -91,8 +91,8 @@ btnRight.addEventListener("click", () => {
 
 function favorite(index) {
   const { target } = event;
-  target.classList.toggle("like");
-  console.log(index);
+  
+  console.log(target);
 }
 
 
