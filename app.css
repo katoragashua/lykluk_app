@@ -263,8 +263,9 @@ header {
 
 .feed-small-div {
     display: flex;
-    gap: 1em;
+    gap: .5em;
     align-items: center;
+    justify-content: space-between;
 }
 
 .feed-profile-img {
@@ -618,9 +619,11 @@ header {
     margin-bottom: 1em;
 }
 
+
 .feed-profile-img {
     width: 40px;
     border: 1px solid var(--main-color);
+    margin-right: 1em;
 }
 
 .feed-reactions {    
