@@ -95,7 +95,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 2em;
+    gap: .5em;
 }
 
 .modal-btn {
@@ -111,6 +111,7 @@ a {
     border-radius: 2rem;
     text-align: center;
     border: solid 1px;
+    margin-bottom: 1.5em;
 }
 
 .google-logo {

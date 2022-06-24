@@ -548,11 +548,12 @@ header {
 
     .menu {
         flex-direction: column;
-        gap: 2em;
+        gap: .5em;
     }
 
     .nav-icons {
         width: 40px;
+        margin-bottom: 1.5em;
     }
 
     /* trending */
