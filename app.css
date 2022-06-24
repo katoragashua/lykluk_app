@@ -484,6 +484,7 @@ header {
     }
 
     .main-container {
+        width: 100%;
         padding: .5em;
         border: none;
         background: transparent;
@@ -606,13 +607,14 @@ header {
 
 /* Feed */
     .feed {
-    gap: 2em;
+    gap: .5em;
 }
 
 .feed-divs {
     /* border: 2px solid var(--main-color); */
     padding: .5em;
     gap: .5em;
+    margin-bottom: 1em;
 }
 
 .feed-profile-img {
