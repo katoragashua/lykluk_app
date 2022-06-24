@@ -559,6 +559,11 @@ header {
 
     /* trending */
 
+    .trending {
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
 .trending-divs {
     max-width: 80px;
     min-width: 80px;
@@ -594,17 +599,17 @@ header {
 }
 
 .trending-btn img {
-    width: 20px;
+    width: 17px;
     transform: translateY(-50%);
     opacity: .5;
 }
 
 .trending-btn-right {
-    right: -2.5em;
+    right: -1.5em;
 }
 
 .trending-btn-left {
-    left: -2.5em;
+    left: -1.5em;
 }
 
 /* Feed */
