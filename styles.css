@@ -138,6 +138,11 @@ a {
     a {
         padding: .7rem 5rem;
     }
+
+    a:hover {
+        transform: scale(1.1);
+        transition: 1s ease;
+    }
 }
 
 /* Carousel */
