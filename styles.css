@@ -49,12 +49,11 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 3em;
 }
 
 .logo {
     width: 5rem;
-    margin-bottom: 2em;
 }
 
 h1 {
@@ -120,12 +119,12 @@ a {
         height: 100%;
     }
 
-    h1 {
-        margin-bottom: 1.5em;
-    }
-    
     .container {
-        gap: 2em;
+        gap: 4em;
+    }
+
+    h1 {
+        padding: 0;
     }
 
     .main {
