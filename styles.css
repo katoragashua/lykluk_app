@@ -127,6 +127,10 @@ a {
         padding: 0;
     }
 
+    p {
+        font-size: 18px;
+    }
+
     .main {
         max-width: 50%;
     }
