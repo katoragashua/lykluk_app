@@ -524,13 +524,14 @@ header {
         height: 100vh;
         justify-content: center;
         align-items: flex-start;
-        background-color: rgba(144, 0, 254, 0.5);
         background-color: rgba(0, 0, 0, 0.9);
         z-index: 10000;
         text-align: left;
         margin-right: -2em;
         transform: translateX(100%);
         padding-top: 5em;
+        border-radius: -2px -2px -5px white;
+        backdrop-filter: blur(20px);
     }
 
     .slide-in {
@@ -605,7 +606,7 @@ header {
 
 /* Feed */
     .feed {
-    gap: 1em;
+    gap: 2em;
 }
 
 .feed-divs {
