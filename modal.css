@@ -85,9 +85,10 @@ a {
     padding: 2em;
     width: 100%;
     border-radius: 1rem;
-     box-shadow: 5px 5px 20px rgba(144, 0, 254, 0.5);
+    box-shadow: 5px 5px 20px rgba(144, 0, 254, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(20px);
+    margin-bottom: 1em;
 }
 
 .modal-sign-up {
